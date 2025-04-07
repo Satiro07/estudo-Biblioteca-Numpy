@@ -1,3 +1,4 @@
+# multiplicando cada linha
 import numpy as np
 
 
