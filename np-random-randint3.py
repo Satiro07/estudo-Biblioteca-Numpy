@@ -1,9 +1,8 @@
-
+# contar quantas vezes cada número aparece em um array de 50 números aleatórios de 1 até 6
 import numpy as np
 contados = []
-array = np.random.randint(1, 6, size=(50))
+array = np.random.randint(1, 7, size=(50))
 print(array)
-
 cont = 1
 while True:
     contagem = 0
