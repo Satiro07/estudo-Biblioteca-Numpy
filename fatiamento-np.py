@@ -1,4 +1,4 @@
-# cortar um array em 'dois pedaços'
+# cortar um array pela metade, deixar em 'dois pedaços' 
 import numpy as np
 array = np.arange(0, 20)
 quantidade = len(array)/2
