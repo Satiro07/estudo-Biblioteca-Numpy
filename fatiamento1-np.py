@@ -12,7 +12,6 @@ for i in array:
     if cont == 2:
         break
     cont += 1
-    
 print('Array modificada')
 print()
 print(array)
