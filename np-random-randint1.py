@@ -13,4 +13,4 @@ for i in array:
         media_maior = media
     cont += 1
 print()
-print(f'{nome_maior} (média: {media_maior})')
+print(f'{nome_maior} (média: {media_maior:.2f})')
