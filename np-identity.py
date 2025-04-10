@@ -9,3 +9,6 @@ for i in array:
     i[cont] += 7
     cont += 1
 print(array)
+print()
+soma = np.sum(array)
+print(soma)
