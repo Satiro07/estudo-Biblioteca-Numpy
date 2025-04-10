@@ -1,4 +1,4 @@
-
+# adicionar uma constante a cada elemento na diagonal, somar matriz
 import numpy as np
 
 array = np.identity(5)
