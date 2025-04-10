@@ -18,3 +18,8 @@ print()
 print('Pedaço um multiplicado por 2')
 print()
 print(array_mult)
+print()
+array_final = array_mult, pedaco2
+print('Array final')
+print()
+print(array_final)
