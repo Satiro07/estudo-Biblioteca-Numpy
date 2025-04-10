@@ -1,4 +1,4 @@
-# substituir os 3 primeiros valores da diagonal
+# substituir os 3 primeiros valores da diagonal princiapal
 
 import numpy as np
 array = np.random.randint(1, 21, size=(5,5))
