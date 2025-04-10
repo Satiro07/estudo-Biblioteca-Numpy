@@ -19,7 +19,7 @@ print('Pedaço um multiplicado por 2')
 print()
 print(array_mult)
 print()
-array_final = array_mult, pedaco2
+array_final = np.array([i for i in array_mult] + [n for n in pedaco2])
 print('Array final')
 print()
 print(array_final)
