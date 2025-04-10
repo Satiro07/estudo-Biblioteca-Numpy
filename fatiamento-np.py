@@ -13,3 +13,8 @@ print()
 print('Segundo pedaço')
 print()
 print(pedaco2)
+array_mult = pedaco1 * 2
+print()
+print('Pedaço um multiplicado por 2')
+print()
+print(array_mult)
