@@ -2,14 +2,14 @@
 import numpy as np
 array = np.random.randint(1, 37, size=(9, 9))
 print(array)
-array1 = np.array([i for i in array[3:6, 3]])
+coluna = (len(array)// 2)-1
+print(coluna)
 
-array2 = np.array([i for i in array[3][3:6]])
+linha = (len(array[0])//2)-1
+print(linha)
+array_g = np.array([i for i in array[coluna][linha:linha+3]] + [i for i in array[coluna+1][linha:linha+3]] + [i for i in array[coluna+2][linha:linha+3]]).reshape(3, 3)
 
-array_g = np.array([i for i in array[3:6, 3]] + [i for i in array[3][3:6]]).reshape(3, 2)
-print(array1)
-print(array2)
 print()
 print(array_g)
 
-# array2 = np.array([array])
+# # array2 = np.array([array])
