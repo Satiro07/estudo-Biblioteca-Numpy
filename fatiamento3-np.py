@@ -10,10 +10,14 @@ print(linha)
 x = int(input('Valor x: '))
 y = int(input('Valor y: '))
 array_g = np.array([])
-for i in range(0, x):
-
-    array_g = np.array([i for i in array[x][y:y+y]])
-    x += 1
+auxi = []
+for i in range(0, 1):
+    
+    for i in range(0, x):
+        aux = [i for i in array[x-1][y:y+y]]
+        auxi.append(aux)
+        x += 1
+    array_g = np.array(auxi)
 
 
 
