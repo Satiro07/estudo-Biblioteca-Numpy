@@ -1,6 +1,6 @@
 # inverter a lista, remover os primeiros 2 nomes e os 2 ultimos
 import numpy as np
-lista = ['ana', 'bruno', 'carlos', 'jose', 'daniela', 'eduardo']
+lista = ['ana', 'bruno', 'carlos', 'daniela', 'eduardo']
 print('Lista original')
 print()
 print(lista)

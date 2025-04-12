@@ -7,7 +7,17 @@ print(coluna)
 
 linha = (len(array[0])//2)-1
 print(linha)
-array_g = np.array([i for i in array[coluna][linha:linha+3]] + [i for i in array[coluna+1][linha:linha+3]] + [i for i in array[coluna+2][linha:linha+3]]).reshape(3, 3)
+x = int(input('Valor x: '))
+y = int(input('Valor y: '))
+array_g = np.array([])
+for i in range(0, x):
+
+    array_g = np.array([i for i in array[x][y:y+y]])
+    x += 1
+
+
+
+
 
 print()
 print(array_g)
