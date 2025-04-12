@@ -1,10 +1,13 @@
 
 import numpy as np
-array = np.random.randint(1, 37, size=(9, 9))
+array = np.arange(1, 82)
+print(array.reshape(9,9))
+
+print(array)
 x = int(input('Valor x: '))
 y = int(input('Valor y: '))
 linha = (len(array)//2)-1
-print(array)
+
 array_g = np.array([])
 auxi = []
 for i in range(0, 1):
