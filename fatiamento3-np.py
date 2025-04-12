@@ -11,7 +11,7 @@ x1 = x
 array_g = np.array([])
 auxi = []
 for i in range(0, 1):
-    for i in range(1, y-1):
+    for i in range(0, y-1):
         aux = [i for i in array[x][x1:y+1]]
         auxi.append(aux)
         x += 1
