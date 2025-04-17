@@ -7,5 +7,5 @@ print('Matriz modificada')
 matriz = array[:,-1:]
 matriz1 = array[:,:-1]
 
-matriz_modificada = np.concatenate((matriz, matriz1),axis=1)
+matriz_modificada = np.concatenate((matriz, matriz1),axis=1) # ultima coluna se torna a primeira
 print(matriz_modificada)
