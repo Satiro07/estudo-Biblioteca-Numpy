@@ -7,4 +7,5 @@ divi = np.split(array, 3) # divide o array
 print(divi)
 array1 = np.arange(1, 10)
 array2 = np.arange(5, 10)
-print(np.concatenate((array1, array2)))
+print(np.concatenate((array1, array2))) # junta arrays
+print(np.ravel(array))
