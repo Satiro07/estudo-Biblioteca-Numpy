@@ -11,16 +11,11 @@ x1 = x
 array_g = np.array([])
 auxi = []
 for i in range(0, 1):
-    for i in range(0, y-1):
+    for i in range(0, x):
         aux = [i for i in array[x][x1:y+1]]
         auxi.append(aux)
         x += 1
     array_g = np.array(auxi)
-
-
-
-
-
 print()
 print(array_g)
 
