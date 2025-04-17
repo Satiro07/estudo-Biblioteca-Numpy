@@ -6,3 +6,7 @@ print()
 print('Zona superior esquerda')
 superior_esquerdo = array[:5,:5]
 print(superior_esquerdo)
+print('Zona superior direita')
+superior_direito = array[:-5,-5:]
+print(superior_direito)
+print()
