@@ -7,3 +7,7 @@ print()
 print('Matriz com linhas invertidas')
 matriz_linhas_invertidas = array[::-1]
 print(matriz_linhas_invertidas)
+print()
+print('Matriz com colunas invertidas')
+matriz_colunas_invertidas = array[:,::-1]
+print(matriz_colunas_invertidas)
