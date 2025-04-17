@@ -11,6 +11,6 @@ print(array)
 print()
 
 array2 = np.flip(array[::-1]) # inverte começando do final da array (porém, não fica na mesma colna)
-print(array2)
+
 array_invertida = np.flip(array2) # inverte deixando o número na mesma coluna
 print(array_invertida)
