@@ -77,7 +77,7 @@ def treinar_modelo():
     else:
         categoria = 'Desconhecida'
 
-    print('Sentimento: ',categoria)
+    print('Categoria: ',categoria)
     verificacao_acerto = ''
     while verificacao_acerto not in ['s', 'n']:
         verificacao_acerto = input('Eu acertei? [s/n] ').lower()
