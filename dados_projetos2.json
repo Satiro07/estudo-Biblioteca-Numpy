@@ -14,7 +14,6 @@
         "você é feia",
         "loja ruim",
         "loja boa",
-        "estudar",
         "bonito",
         "garota feia",
         "garota bonita",
@@ -23,7 +22,20 @@
         "cidade muito ruim",
         "cidade muito incrivel",
         "excelente",
-        "comida mais que excelente"
+        "comida mais que excelente",
+        "amor",
+        "o amor é lindo",
+        "ódio",
+        "o ódio faz bem",
+        "felicidade",
+        "estou muito feliz",
+        "estou triste",
+        "tristeza",
+        "raiva",
+        "raiva faz bem",
+        "solidão",
+        "medo",
+        "orgulho"
     ],
     [
         1,
@@ -41,7 +53,6 @@
         0,
         1,
         1,
-        1,
         0,
         1,
         0,
@@ -49,6 +60,19 @@
         0,
         1,
         1,
-        1
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
     ]
 ]
