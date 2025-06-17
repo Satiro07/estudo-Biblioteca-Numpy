@@ -9,20 +9,30 @@ from time import sleep
 stopwords_portugues = ['de', 'a', 'o', 'que', 'e', 'do', 'da', 'em', 'um', 'para', 'com']
 
 frases_para_verificar = [
-    "Clique aqui e ganhe um iPhone grátis!",
-    "Reunião amanhã às 14h com a equipe de projetos.",
-    "Você foi selecionado para um prêmio exclusivo.",
-    "Compre agora e leve o segundo de graça!",
-    "Relatório financeiro já está disponível no sistema.",
-    "Última chance! Descontos de até 90% só hoje!",
-    "Segue anexo o contrato atualizado para revisão.",
-    "Parabéns! Você acaba de ganhar um vale-compras.",
-    "Vamos almoçar juntos depois da reunião?",
-    "Receba dinheiro rápido sem sair de casa!"
+     "Você foi selecionado para receber um prêmio incrível, clique para confirmar.",
+    "O relatório financeiro demonstra crescimento sustentável no último semestre.",
+    "Ganhe acesso exclusivo a conteúdos premium se agir agora.",
+    "A equipe de marketing apresentou a estratégia para o próximo trimestre.",
+    "Atualize seus dados para continuar aproveitando nossos serviços.",
+    "Oferta imperdível: compre um e leve dois, somente hoje!",
+    "O comitê aprovou as mudanças propostas na política interna.",
+    "Descubra como milhares estão aumentando a renda usando essa técnica.",
+    "Está marcada uma reunião para discutir os próximos passos do projeto.",
+    "Receba notificações instantâneas sobre promoções e novidades.",
+    "Clique aqui e transforme sua vida financeira em poucas semanas.",
+    "O departamento de RH está recrutando novos talentos para diversas áreas.",
+    "Participe da pesquisa e concorra a prêmios exclusivos.",
+    "Sistema apresenta instabilidade, técnicos trabalham para resolver.",
+    "Invista no seu futuro com nossas dicas exclusivas de especialistas.",
+    "O conselho decidiu adiar a votação sobre a reforma tributária.",
+    "Parabéns, você ganhou um cupom de desconto para sua próxima compra.",
+    "O time de desenvolvimento lançou a atualização corrigindo bugs críticos.",
+    "Não perca a chance de ser seu próprio chefe com essa oportunidade única.",
+    "Relatórios preliminares indicam melhorias significativas no desempenho."
 ]
 
 gabaritos_frases = [
-    0, 1, 0, 0, 1, 0, 1, 0, 1, 0
+    0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1
 ]
 
 
@@ -74,12 +84,14 @@ def testar_modelo():
             acertos += 1
             dados[0].append(frase_limpa)
             dados[1].append(int(resultado[0]))
+            print('Acertei!')
         else:
             dados[0].append(frase_limpa)
             if resultado[0] == 0:
                 dados[1].append(1)
             else:
                 dados[1].append(0)
+            print('Errei!')
 
         indice += 1
         print()
