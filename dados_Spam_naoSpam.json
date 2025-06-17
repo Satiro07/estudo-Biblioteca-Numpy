@@ -25,7 +25,11 @@
         "bom dia pode enviar os documentos ate as 15h",
         "parabens voce foi o sorteado da semana",
         "seu cpf esta irregular atualize imediatamente",
-        "confirmando sua presenca na reuniao de amanha"
+        "confirmando sua presenca na reuniao de amanha",
+        "oferta imperdivel por tempo limitado nao perca",
+        "segue a ata da reuniao da semana passada",
+        "clique aqui e desbloqueie seu beneficio exclusivo",
+        "favor revisar o contrato ate segundafeira"
     ],
     [
         0,
@@ -52,6 +56,10 @@
         1,
         1,
         0,
+        0,
+        1,
+        0,
+        1,
         0,
         1
     ]
