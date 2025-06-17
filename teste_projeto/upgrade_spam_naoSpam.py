@@ -8,16 +8,16 @@ from unidecode import unidecode
 stopwords_portugues = ['de', 'a', 'o', 'que', 'e', 'do', 'da', 'em', 'um', 'para', 'com']
 
 frases_para_verificar = [
-    "Ganhe dinheiro fácil trabalhando de casa",      
-    "Oferta imperdível! Compre agora e ganhe brinde", 
-    "Reunião marcada para sexta-feira às 14h",         
-    "Você foi selecionado para um prêmio exclusivo!",  
-    "Relatório finalizado e enviado por e-mail",       
-    "Clique aqui e mude sua vida hoje!",              
-    "Segue em anexo os arquivos solicitados",         
-    "Parabéns! Você acaba de ganhar um iPhone",       
-    "Vamos almoçar no shopping amanhã?",              
-    "Última chance! Descontos de até 70% só hoje!"     
+    "Confirme seu cadastro e ganhe um cupom exclusivo",    # 0
+    "Seu pacote foi enviado com sucesso, confira o código",# 1
+    "Não perca! Promoção válida até meia-noite",           # 0
+    "Vamos revisar o projeto amanhã às 10h",               # 1
+    "Aumente seus ganhos com esse método simples",         # 0
+    "Reunião agendada com o cliente foi confirmada",       # 1
+    "Você foi escolhido para participar do sorteio",       # 0
+    "Segue link da planilha atualizada com os dados",      # 1
+    "Descubra como emagrecer sem sair de casa",            # 0
+    "Atualizações do sistema disponíveis para instalação"  # 1  
 ]
 
 
