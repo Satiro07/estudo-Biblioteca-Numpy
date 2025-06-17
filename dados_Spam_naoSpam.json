@@ -39,7 +39,17 @@
         "segue em anexo os arquivos solicitados",
         "parabens voce acaba de ganhar um iphone",
         "vamos almocar no shopping amanha",
-        "ultima chance descontos de ate 70 so hoje"
+        "ultima chance descontos de ate 70 so hoje",
+        "confirme seu cadastro e ganhe um cupom exclusivo",
+        "seu pacote foi enviado com sucesso confira o codigo",
+        "nao perca promocao valida ate meianoite",
+        "vamos revisar o projeto amanha as 10h",
+        "aumente seus ganhos com esse metodo simples",
+        "reuniao agendada com o cliente foi confirmada",
+        "voce foi escolhido para participar do sorteio",
+        "segue link da planilha atualizada com os dados",
+        "descubra como emagrecer sem sair de casa",
+        "atualizacoes do sistema disponiveis para instalacao"
     ],
     [
         0,
@@ -81,6 +91,16 @@
         1,
         0,
         1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
         1
     ]
 ]
