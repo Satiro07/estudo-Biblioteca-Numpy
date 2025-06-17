@@ -8,16 +8,16 @@ from unidecode import unidecode
 stopwords_portugues = ['de', 'a', 'o', 'que', 'e', 'do', 'da', 'em', 'um', 'para', 'com']
 
 frases_para_verificar = [
-    "Confirme seu cadastro e ganhe um cupom exclusivo",    # 0
-    "Seu pacote foi enviado com sucesso, confira o código",# 1
-    "Não perca! Promoção válida até meia-noite",           # 0
-    "Vamos revisar o projeto amanhã às 10h",               # 1
-    "Aumente seus ganhos com esse método simples",         # 0
-    "Reunião agendada com o cliente foi confirmada",       # 1
-    "Você foi escolhido para participar do sorteio",       # 0
-    "Segue link da planilha atualizada com os dados",      # 1
-    "Descubra como emagrecer sem sair de casa",            # 0
-    "Atualizações do sistema disponíveis para instalação"  # 1  
+    "Veja como especialistas estão faturando com isso",             # 0 (spam)
+    "O relatório final será entregue até sexta-feira",             # 1 (não spam)
+    "Este segredo pode mudar sua vida financeira",                 # 0 (spam)
+    "Confirme sua presença na reunião com o time",                 # 1 (não spam)
+    "Você está deixando dinheiro na mesa sem saber",               # 0 (spam)
+    "O arquivo foi compartilhado no seu e-mail corporativo",       # 1 (não spam)
+    "Liberado acesso ao curso gratuito por tempo limitado",        # 0 (spam)
+    "Segue proposta atualizada com os ajustes solicitados",        # 1 (não spam)
+    "Temos uma oportunidade imperdível para você",                 # 0 (spam)
+    "Já revisei o código e fiz o commit no repositório"            # 1 (não spam)
 ]
 
 
